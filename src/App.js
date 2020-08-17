@@ -42,7 +42,7 @@ function App() {
         </div>
         <input type="text" placeholder="search player(s), comma seperated." />
       </div> </section>
-      <div className="myLeaderboard">
+      <div className="myLeaderboard off">
         <h3>My Leaderboard</h3>
         { players.map(player=>{
       return    <Golfers name={player.Name} position={player.Rank} fpts={player.FantasyPoints} score = {player.TotalScore} />
