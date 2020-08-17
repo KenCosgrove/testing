@@ -23,7 +23,7 @@ function App() {
        <button>Menu</button>
       </header>
     <section className="two">
-        <h2>Sort_ by:</h2>
+        <h2>Sort by:</h2>
         <div className="filters">  
           <div className="box">
         <li>Name</li>
