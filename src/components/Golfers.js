@@ -1,11 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 const Golfers = (props) => {
     const {name, position, score, fpts} = props
-    const [show, setShow] = useState(true)
-const toggle = ()=>{
-setShow(!show)
-}
+ 
     return (
     <div className="cardContainer"> 
         <div className="flexbox">
