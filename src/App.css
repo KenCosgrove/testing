@@ -45,6 +45,7 @@ table {
 .header {
   display:flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding: 1rem 3rem;
   background: rgb(26, 108, 54);
 }
@@ -52,6 +53,11 @@ table {
 .header img {
   height:5rem;
 }
+
+h1 {
+  color: white;
+}
+
 h2 {
   font-size: 1.5rem;
   padding: 1rem;
@@ -91,9 +97,12 @@ li {
 .cardContainer {
   display: flex;
   justify-content: space-between;
-  background: slategrey;
+  background: rgb(26, 108, 54);
   border-bottom: 2px solid white;
-  color: white;
+  color:rgb(227 184 105) ;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px black;
   margin: 0 auto;
   width: 80%;
   padding: 0.5rem 0;
@@ -112,7 +121,8 @@ li {
 }
 
 span {
-color: black;
+color: white;
+font-size: 1.5rem;
 }
 
 footer {

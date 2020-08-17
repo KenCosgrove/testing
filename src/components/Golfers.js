@@ -9,7 +9,7 @@ setShow(!show)
     return (
     <div className="cardContainer"> 
         <div className="flexbox">
-                <h1>{name}  </h1> <button onClick={toggle}>+</button>
+                <h1>{name}  </h1> 
                 <p> pos: {position} <span>|</span> {score}  </p>
                 <p>fPts: {fpts}</p>
     </div> 
