@@ -24,7 +24,6 @@ function App() {
       </header>
     <section className="two">
         <h2>Sort by:</h2>
-        <h6>testing pushes</h6>
         <div className="filters">  
           <div className="box">
         <li>Name</li>

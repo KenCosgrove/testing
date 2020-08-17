@@ -46,7 +46,7 @@ table {
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 1rem 3rem;
+  padding: 1rem 0.2rem;
   background: rgb(26, 108, 54);
 }
 
@@ -96,11 +96,11 @@ li {
 
 .cardContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: rgb(26, 108, 54);
   border-bottom: 2px solid white;
-  color:rgb(227 184 105) ;
+  color: rgb(227 184 105);
   font-weight: bold;
   font-size: 1.2rem;
   text-shadow: 1px 1px black;
